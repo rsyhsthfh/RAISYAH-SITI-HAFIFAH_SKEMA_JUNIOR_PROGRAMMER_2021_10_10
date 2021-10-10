@@ -5,7 +5,7 @@ numbers.forEach((number) => {
     console.log(number)
 
     number.addEventListener("click", () => {
-        console.log("number is pressed")
+        //console.log("number is pressed")
     })
 
     number.addEventListener("click", (event) => {
@@ -54,7 +54,7 @@ const inputOperator = (operator) => {
 const equalSign = document.querySelector('.equal-sign')
 
 equalSign.addEventListener('click', () => {
-    console.log('equal button is pressed')
+    //console.log('equal button is pressed')
     calculate ()
     updateScreen(currentNumber)
 })
@@ -84,7 +84,7 @@ const  calculate = () => {
 const clearBtn = document.querySelector('.all-clear')
 
 clearBtn.addEventListener('click', () => {
-    console.log('AC button is pressed')
+    //console.log('AC button is pressed')
     clearAll ()
     updateScreen(currentNumber)
 })
@@ -98,7 +98,7 @@ const clearAll = () => {
 const percentageBtn = document.querySelector('.percentage')
 
 percentageBtn.addEventListener ('click', () => {
-    console.log('Percent button is pressed')
+    //console.log('Percent button is pressed')
     percentage()
     updateScreen(currentNumber)
 }) 
